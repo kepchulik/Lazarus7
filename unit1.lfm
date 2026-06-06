@@ -1,0 +1,36 @@
+object Form1: TForm1
+  Left = 256
+  Height = 321
+  Top = 145
+  Width = 327
+  Caption = 'Типизированный файл'
+  ClientHeight = 321
+  ClientWidth = 327
+  LCLVersion = '3.6.0.0'
+  object ListBox1: TListBox
+    Left = 16
+    Height = 200
+    Top = 16
+    Width = 120
+    ItemHeight = 0
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 144
+    Height = 34
+    Top = 22
+    Width = 171
+    Caption = 'Сформировать файл'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 144
+    Height = 34
+    Top = 80
+    Width = 171
+    Caption = 'Читать из файла'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+end
